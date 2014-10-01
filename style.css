@@ -1661,25 +1661,25 @@ body.page-template-template-homepage-php #blog .blog-posts li:last-child {
 
 /* Homepage > Portfolio Section */
 
-body.page-template-template-homepage-php #portfolio {
+body.page-template-template-homepage-php #photos {
 	position: relative;
 	box-shadow: 0 -4px 4px -4px rgba(0,0,0,.1);
 	z-index: 100;
 	bottom: -1px;
 	}
 
-body.page-template-template-homepage-php #portfolio .flexslider {
+body.page-template-template-homepage-php #photos .flexslider {
 	max-height: 360px;
 	}
 
-body.page-template-template-homepage-php #portfolio .flex-direction-nav {
+body.page-template-template-homepage-php #photos .flex-direction-nav {
 	position: absolute;
 	width: 100%;
 	bottom: 58%;
 	z-index: 1000;
 	}
 
-body.page-template-template-homepage-php #portfolio .flex-direction-nav a {
+body.page-template-template-homepage-php #photos .flex-direction-nav a {
 	color: rgba(0,0,0,0.35);
 	background-color: #fff;
 	font-size: 18px;
@@ -1692,26 +1692,26 @@ body.page-template-template-homepage-php #portfolio .flex-direction-nav a {
 	transition: .15s ease-in;
 	}
 
-body.page-template-template-homepage-php #portfolio .flex-direction-nav a:hover {
+body.page-template-template-homepage-php #photos .flex-direction-nav a:hover {
 	color: #ec3853;
 	}
 
-body.page-template-template-homepage-php #portfolio .flex-direction-nav .flex-prev {
+body.page-template-template-homepage-php #photos .flex-direction-nav .flex-prev {
 	padding-left: 12px;
 	}
 
-body.page-template-template-homepage-php #portfolio .flex-direction-nav .flex-next {
+body.page-template-template-homepage-php #photos .flex-direction-nav .flex-next {
 	padding-right: 12px;
 	}
 
-body.page-template-template-homepage-php #portfolio .slide {
+body.page-template-template-homepage-php #photos .slide {
 	float: left;
 	line-height: 0;
 	width: 50%;
 	overflow: hidden;
 	}
 
-body.page-template-template-homepage-php #portfolio .slide a img {
+body.page-template-template-homepage-php #photos .slide a img {
 	width: 100%;
 	height: auto;
 	display: block;
@@ -1721,7 +1721,7 @@ body.page-template-template-homepage-php #portfolio .slide a img {
 	transition: .15s ease-in;
 	}
 
-body.page-template-template-homepage-php #portfolio .slide a:hover img {
+body.page-template-template-homepage-php #photos .slide a:hover img {
 	-webkit-transition: .15s ease-in;
 	-moz-transition: .15s ease-in;
 	transition: .15s ease-in;

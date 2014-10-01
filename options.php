@@ -5,7 +5,7 @@
    Name: Mighty Theme Options
    URI: http://meetmighty.com/
    Description: Add options to theme
- 
+
 -----------------------------------------------------------------*/
 
 
@@ -125,6 +125,12 @@ function optionsframework_options() {
 	$options[] = array(
 		'name' => __('Billboard', 'options_framework_theme'),
 		'type' => 'info');
+
+  $options[] = array(
+    'name' => __('Enable Heading', 'options_framework_theme'),
+    'desc' => __('Check this box if you would like to use a heading.', 'options_framework_theme'),
+    'id' => 'enable-header',
+    'type' => 'checkbox');
 
 	$options[] = array(
 		'name' => __('Heading', 'options_framework_theme'),

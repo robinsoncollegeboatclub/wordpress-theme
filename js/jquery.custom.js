@@ -44,14 +44,14 @@ jQuery(document).ready(function($) {
 	            $('#header').stop().animate({
 	                padding: '70px 0 50px'
 	            },150);
-	        }  
+	        }
 	    }
 	});
 
 
 	// Homepage Slider
 	$(window).load(function() {
-	  $('#portfolio .flexslider').flexslider({
+	  $('#photos .flexslider').flexslider({
 		slideshow: false,
 		animation: "slider",
 		animationLoop: false,

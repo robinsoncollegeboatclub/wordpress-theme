@@ -4,41 +4,29 @@
 
 <main id="content" role="main" itemprop="mainContentOfPage">
 
+	<!--Photos-->
+	<section id="photos" class="clearfix">
 
-	<!-- Heading -->
-	<section id="header-meta" class="wrap clearfix">
-	<?php if ( of_get_option( 'header-title' ) ) { ?>
-		<h1 class="entry-title"><?php echo of_get_option( 'header-title' ); ?></h1>
-	<?php } if ( of_get_option( 'header-sub' ) ) { ?>
-		<div class="entry-excerpt"><?php echo of_get_option( 'header-sub' ); ?></div>
-	<?php } if ( of_get_option( 'billboard-btn-link' ) ) { ?>
-		<a href="<?php echo of_get_option( 'billboard-btn-link' ); ?>" title="<?php echo of_get_option( 'billboard-btn-text' ); ?>" class="more"><?php echo of_get_option( 'billboard-btn-text' ); ?></a>
-	<?php } ?>
-	</section>
+		<?php $attachments = get_children(array('post_parent' => $post->ID,
+                        'post_status' => 'inherit',
+                        'post_type' => 'attachment',
+                        'post_mime_type' => 'image',
+                        'order' => 'ASC',
+                        'orderby' => 'menu_order ID'));
+		?>
 
-
-	<!--Portfolio-->
-	<section id="portfolio" class="clearfix">
-
-		<?php $loop = new WP_Query( array( 'post_type' => 'portfolio', 'posts_per_page' => 4 ) ); ?>
-
-		<?php if ( $loop->have_posts() ) : ?>
+		<?php if ( count($attachments) ) : ?>
 
 		<div class="flexslider">
 			<div class="slider-nav clearfix"></div>
 			<ul class="slides">
 
-			<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-
+			<?php foreach($attachments as $att_id => $attachment): ?>
 				<li class="slide">
-				<?php if ( has_post_thumbnail() ) : ?>
-					<a href="<?php the_permalink(); ?>" rel="bookmark">
-						<?php the_post_thumbnail( 'l' ); ?>
-					</a>
-				<?php endif; ?>
+					<?php echo wp_get_attachment_image( $attachment->ID, 'full' ); ?>
 				</li>
 
-			<?php endwhile; ?>
+			<?php endforeach; ?>
 
 			</ul>
 		</div>
@@ -143,5 +131,5 @@
 
 
 </main>
-			
+
 <?php get_footer(); ?>

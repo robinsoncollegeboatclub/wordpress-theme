@@ -2,8 +2,6 @@
 
 <html <?php language_attributes(); ?>>
 
-	<!-- A Mighty WordPress Theme, http://meetmighty.com/ -->
-
 	<head>
 
 		<!-- Meta -->
@@ -12,7 +10,7 @@
 
 		<!-- Title -->
 		<title><?php if ( is_front_page() ) { ?><?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?><?php } else { ?><?php wp_title('-', true, 'right'); ?><?php bloginfo( 'name' ); ?><?php } ?></title>
-						
+
 		<!-- RSS & Pingbacks -->
 		<?php if ( of_get_option( 'feedburner-url' ) ) : ?>
 			<link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> <?php _e( 'RSS Feed', 'mighty'); ?>" href="http://feeds.feedburner.com/<?php echo of_get_option( 'feedburner-url' ); ?>" />
@@ -20,17 +18,17 @@
 			<link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> <?php _e( 'RSS Feed', 'mighty'); ?>" href="<?php bloginfo( 'rss2_url' ); ?>" />
 		<?php endif; ?>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-		
+
 		<!-- Favicon -->
 		<?php if ( of_get_option( 'custom-favicon' ) ) : ?>
 			<link rel="shortcut icon" href="<?php echo of_get_option( 'custom-favicon' ); ?>" />
 		<?php else : ?>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/fav.ico" />
 		<?php endif; ?>
-		
+
 		<!-- Hooks -->
 		<?php wp_head(); ?>
-		    
+
 	</head>
 
 
@@ -51,7 +49,7 @@
 			    <!-- Navigation -->
 			    <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 					<?php if( has_nav_menu( 'header-menu' ) ) : ?>
-					
+
 					    <?php
 						    wp_nav_menu(
 							    array(
@@ -63,13 +61,13 @@
 							    )
 						    );
 					    ?>
-					
+
 					<?php else : ?>
-					
+
 					<ul id="nav">
 						<?php wp_list_pages( 'title_li=&depth=1' ); ?>
 					</ul>
-					
+
 					<?php endif; ?>
 
 				</nav>
@@ -78,6 +76,6 @@
 				<div id="toggle">
 					<i class="fa fa-bars"></i>
 				</div>
-			
+
 			</div>
 		</header>
