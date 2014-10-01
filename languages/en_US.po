@@ -1,0 +1,630 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Scripted WordPress Theme\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Mighty Themes\n"
+"MIME-Version: 1.0\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.6.2\n"
+
+#. Text in echo
+#: scripted/content-gallery.php:48 scripted/content-video.php:117
+#: scripted/content-quote.php:66 scripted/content-link.php:66
+#: scripted/content.php:45 scripted/content-audio.php:54
+msgid " by "
+msgstr ""
+
+#. Text in echo
+#: scripted/content-gallery.php:52 scripted/content-video.php:121
+#: scripted/content-quote.php:70 scripted/content-link.php:70
+#: scripted/content.php:49 scripted/content-audio.php:58
+msgid " in "
+msgstr ""
+
+#. Text in echo
+#: scripted/content-gallery.php:50 scripted/content-video.php:119
+#: scripted/content-quote.php:68 scripted/content-link.php:68
+#: scripted/content.php:47 scripted/content-audio.php:56
+msgid " on "
+msgstr ""
+
+#. Text in echo
+#: scripted/content-gallery.php:54 scripted/content-video.php:123
+#: scripted/content-quote.php:72 scripted/content-link.php:72
+#: scripted/content.php:51 scripted/content-audio.php:60
+msgid " with "
+msgstr ""
+
+#. Text in function
+#: scripted/template-homepage.php:111 scripted/template-homepage.php:134
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:12 scripted/content-gallery.php:55
+#: scripted/content-video.php:124 scripted/content-quote.php:73
+#: scripted/content-link.php:73 scripted/content.php:52
+#: scripted/content-audio.php:61
+msgid "% Replies"
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:12 scripted/content-gallery.php:55
+#: scripted/content-video.php:124 scripted/content-quote.php:73
+#: scripted/content-link.php:73 scripted/content.php:52
+#: scripted/content-audio.php:61
+msgid "0 Replies"
+msgstr ""
+
+#. Text in function
+#: scripted/template-homepage.php:111 scripted/template-homepage.php:134
+msgid "1 Comment"
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:12 scripted/content-gallery.php:55
+#: scripted/content-video.php:124 scripted/content-quote.php:73
+#: scripted/content-link.php:73 scripted/content.php:52
+#: scripted/content-audio.php:61
+msgid "1 Reply"
+msgstr ""
+
+#. Text in echo
+#: scripted/searchform.php:4
+msgid "<i class=\"fa fa-search\"></i>"
+msgstr ""
+
+#. Text in echo
+#: scripted/404.php:10
+msgid "<span class=\"big\">404</span>"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-tweets.php:1
+msgid "A new widget that displays your latest tweets"
+msgstr ""
+
+#. Text in echo
+#: scripted/template-portfolio-sortable.php:40
+msgid "All"
+msgstr ""
+
+#. Text in echo
+#: scripted/header-meta.php:9
+msgid "Archives"
+msgstr ""
+
+#. Text in function
+#: scripted/header-meta.php:9 scripted/archive.php:22
+msgid "Category: %s"
+msgstr ""
+
+#. Text in echo
+#: scripted/single-portfolio.php:106 scripted/single-portfolio.php:110
+msgid "Client"
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:33
+msgid "Comment"
+msgstr ""
+
+#. Text in echo
+#: scripted/content-gallery.php:69 scripted/functions.php:197
+#: scripted/content-video.php:138 scripted/content-quote.php:87
+#: scripted/content-link.php:87 scripted/content.php:66
+#: scripted/template-homepage.php:115 scripted/content-audio.php:75
+msgid "Continue Reading"
+msgstr ""
+
+#. Text in echo
+#: scripted/single-portfolio.php:100
+msgid "Date"
+msgstr ""
+
+#. Text in function
+#: scripted/archive.php:10
+msgid "Day: %s"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-video.php:132
+msgid "Description:"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-video.php:1
+#: scripted/includes/widgets/widget-social.php:1
+msgid "Display a featured YouTube or Vimeo video."
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-dribbble.php:1
+msgid "Display your latest dribbble shots."
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-flickr.php:1
+msgid "Display your most recent photos from Flickr."
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-instagram.php:1
+msgid "Display your most recent photos from Instagram."
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:119
+msgid "Dribbble"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:242
+msgid "Dribbble Link: "
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-dribbble.php:113
+msgid "Dribbble Shots"
+msgstr ""
+
+#. Text in function
+#: scripted/functions.php:185
+msgid "Edit"
+msgstr ""
+
+#. Text in echo
+#: scripted/template-contact.php:76
+#: scripted/includes/widgets/widget-social.php:143
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:272
+msgid "Email Link: "
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-video.php:127
+msgid "Embed Code:"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:91
+msgid "Facebook"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:207
+msgid "Facebook Link: "
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:147
+msgid "Feed"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-tweets.php:144
+msgid "Feeds include replies and retweets"
+msgstr ""
+
+#. Text in echo
+#: scripted/template-portfolio-sortable.php:39
+msgid "Filter:"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-flickr.php:139
+msgid "Flickr ID:"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:252
+msgid "Flickr Link: "
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-flickr.php:95
+msgid "Flickr Photos"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-tweets.php:148
+msgid "Follow Text e.g. Follow me on Twitter"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-dribbble.php:171
+#: scripted/includes/widgets/widget-instagram.php:150
+msgid "Follow Text e.g. Follow us on Dribbble"
+msgstr ""
+
+#. Text in function
+#: scripted/functions.php:1
+msgid "Footer Menu"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:135
+msgid "Github"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:262
+msgid "Github Link: "
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:99
+msgid "Google+"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:217
+msgid "Google+ Link: "
+msgstr ""
+
+#. Text in function
+#: scripted/functions.php:1
+msgid "Header Menu"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:111
+msgid "Instagram"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:232
+msgid "Instagram Link: "
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-instagram.php:91
+msgid "Instagram Shots"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:131
+msgid "LinkedIn"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:257
+msgid "LinkedIn Link: "
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:33
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out</a>"
+msgstr ""
+
+#. Text in echo
+#: scripted/template-contact.php:89
+msgid "Message"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-dribbble.php:1
+msgid "Mighty Dribbble Shots"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-video.php:1
+msgid "Mighty Featured Video"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-flickr.php:1
+msgid "Mighty Flickr Photos"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-instagram.php:1
+msgid "Mighty Instagram Photos"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-tweets.php:1
+msgid "Mighty Recent Tweets"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-social.php:1
+msgid "Mighty Social Links"
+msgstr ""
+
+#. Text in function
+#: scripted/archive.php:14
+msgid "Month: %s"
+msgstr ""
+
+#. Text in echo
+#: scripted/template-contact.php:69
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: scripted/index.php:27 scripted/search.php:31 scripted/archive.php:70
+msgid "Newer Posts"
+msgstr ""
+
+#. Text in function
+#: scripted/template-portfolio.php:107
+msgid "Newer Work"
+msgstr ""
+
+#. Text in function
+#: scripted/template-homepage.php:111 scripted/template-homepage.php:134
+msgid "No Comments"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-tweets.php:154
+msgid "Not properly configured, check settings"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-dribbble.php:166
+#: scripted/includes/widgets/widget-flickr.php:144
+#: scripted/includes/widgets/widget-instagram.php:145
+msgid "Number of shots to show:"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-tweets.php:142
+msgid "Number of tweets"
+msgstr ""
+
+#. Text in function
+#: scripted/index.php:26 scripted/search.php:30 scripted/archive.php:69
+msgid "Older Posts"
+msgstr ""
+
+#. Text in function
+#: scripted/template-portfolio.php:106
+msgid "Older Work"
+msgstr ""
+
+#. Text in function
+#: scripted/template-homepage.php:111 scripted/template-homepage.php:134
+msgid "Permalink to %s comments"
+msgstr ""
+
+#. Text in echo
+#: scripted/template-contact.php:83
+msgid "Phone"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:103
+msgid "Pinterest"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:222
+msgid "Pinterest Link: "
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-dribbble.php:111
+msgid "Please check your dribbble username"
+msgstr ""
+
+#. Text in echo
+#: scripted/template-contact.php:53
+msgid "Please complete the form"
+msgstr ""
+
+#. Text in echo
+#: scripted/template-contact.php:53
+msgid "Please enter a valid email address"
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:33
+msgid "Post Reply"
+msgstr ""
+
+#. Text in echo
+#: scripted/header.php:18 scripted/header.php:20
+msgid "RSS Feed"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:277
+msgid "RSS Feed Link: "
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:33
+msgid "Reply"
+msgstr ""
+
+#. Text in echo
+#: scripted/comments.php:14 scripted/comments.php:25
+msgid "Reply section is closed."
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:33
+msgid "Reply to %s"
+msgstr ""
+
+#. Text in echo
+#: scripted/search.php:7
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: scripted/header-meta.php:32
+msgid "Search results for"
+msgstr ""
+
+#. Text in function
+#: scripted/functions.php:1
+msgid "Sidebar"
+msgstr ""
+
+#. Text in echo
+#: scripted/single-portfolio.php:116
+msgid "Skills"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:139
+msgid "Skype Profile Name"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:267
+msgid "Skype User ID: "
+msgstr ""
+
+#. Text in echo
+#: scripted/template-contact.php:94
+msgid "Submit"
+msgstr ""
+
+#. Text in echo
+#: scripted/content-gallery.php:81 scripted/content-video.php:150
+#: scripted/content-quote.php:99 scripted/content-link.php:99
+#: scripted/content.php:78 scripted/content-audio.php:87
+msgid "Tagged with"
+msgstr ""
+
+#. Text in function
+#: scripted/archive.php:29
+msgid "Tagged: %s"
+msgstr ""
+
+#. Text in echo
+#: scripted/template-contact.php:53
+msgid "There was a problem processing your request"
+msgstr ""
+
+#. Text in function
+#: scripted/includes/widgets/widget-tweets.php:1
+msgid "There was an error grabbing the Twitter feed"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-video.php:122
+#: scripted/includes/widgets/widget-dribbble.php:156
+#: scripted/includes/widgets/widget-flickr.php:134
+#: scripted/includes/widgets/widget-social.php:202
+#: scripted/includes/widgets/widget-tweets.php:132
+#: scripted/includes/widgets/widget-instagram.php:135
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: scripted/searchform.php:3
+msgid "To search, type and hit enter."
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:107
+msgid "Tumblr"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:227
+msgid "Tumblr Link: "
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-tweets.php:152
+msgid "Tweets are cached for 5 minutes to improve performance"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:95
+msgid "Twitter"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:212
+msgid "Twitter Link: "
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-tweets.php:137
+msgid "Twitter Username e.g. meetmighty"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-dribbble.php:161
+#: scripted/includes/widgets/widget-instagram.php:140
+msgid "Username:"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:115
+msgid "Vimeo"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:237
+msgid "Vimeo Link: "
+msgstr ""
+
+#. Text in echo
+#: scripted/404.php:14
+msgid ""
+"Well, this is embarrassing. We can\\'t seem to locate the page you\\'re "
+"looking for. <br>Bad link? Mistyped address? We\\'re not exactly sure. "
+"<br><br>You can always search for the page below."
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:33
+msgid "X"
+msgstr ""
+
+#. Text in function
+#: scripted/archive.php:18
+msgid "Year: %s"
+msgstr ""
+
+#. Text in function
+#: scripted/comments.php:33
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:247
+msgid "YouTube Link: "
+msgstr ""
+
+#. Text in echo
+#: scripted/functions.php:191
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in echo
+#: scripted/template-contact.php:40
+msgid "Your message has been sent"
+msgstr ""
+
+#. Text in echo
+#: scripted/search.php:38
+msgid "Your search did not match any entries"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:123
+msgid "Youtube"
+msgstr ""
+
+#. Text in echo
+#: scripted/includes/widgets/widget-social.php:127
+msgid "flickr"
+msgstr ""
