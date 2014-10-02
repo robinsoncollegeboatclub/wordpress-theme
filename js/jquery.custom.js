@@ -7,21 +7,7 @@ jQuery(document).ready(function($) {
 
 	// Drawer Sidebar
 	var sidebar = document.getElementById( 'sidebar' );
-	var button = document.getElementById( 'toggle' );
 	var body = document.body;
-
-	button.onclick = function() {
-		classie.toggle( this, 'active' );
-		classie.toggle( body, 'push' );
-		classie.toggle( sidebar, 'open' );
-		disable( 'toggle' );
-	};
-
-	function disable( button ) {
-		if ( button !== 'toggle' ) {
-			classie.toggle( button, 'disabled' );
-		}
-	}
 
 
 	// Shrinking sticky header

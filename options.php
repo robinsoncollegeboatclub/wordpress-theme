@@ -2,8 +2,7 @@
 
 /* ----------------------------------------------------------------
 
-   Name: Mighty Theme Options
-   URI: http://meetmighty.com/
+   Theme Options
    Description: Add options to theme
 
 -----------------------------------------------------------------*/
