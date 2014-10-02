@@ -4,6 +4,17 @@
 
 <main id="content" role="main" itemprop="mainContentOfPage">
 
+	<!-- Heading -->
+	<section id="header-meta" class="wrap clearfix">
+	<?php if ( of_get_option( 'header-title' ) ) { ?>
+		<h1 class="entry-title"><?php echo of_get_option( 'header-title' ); ?></h1>
+	<?php } if ( of_get_option( 'header-sub' ) ) { ?>
+		<div class="entry-excerpt"><?php echo of_get_option( 'header-sub' ); ?></div>
+	<?php } if ( of_get_option( 'billboard-btn-link' ) ) { ?>
+		<a href="<?php echo of_get_option( 'billboard-btn-link' ); ?>" title="<?php echo of_get_option( 'billboard-btn-text' ); ?>" class="more"><?php echo of_get_option( 'billboard-btn-text' ); ?></a>
+	<?php } ?>
+	</section>
+
 	<!--Photos-->
 	<section id="photos" class="clearfix">
 
