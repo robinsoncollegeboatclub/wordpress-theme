@@ -6,7 +6,7 @@
 
 	Author: Daniel Chatfield
 
-	Version: 1.0.5
+	Version: 1.0.6
 
 	Github Theme URI: https://github.com/robinsoncollegeboatclub/wordpress-theme
 
@@ -284,6 +284,18 @@ header:after, main:after, footer:after, aside:after, section:after,
 	margin-left: 12px;
 	position: relative;
 	}
+
+#header #nav li.highlight {
+	padding: 0;
+	background: none;
+	border-radius: 0px;
+  }
+
+#header #nav li.highlight a {
+	background: #fff198;
+  padding: 0 5px;
+  border-radius: 3px;
+  }
 
 #header #nav li:before {
 	content: '/';
