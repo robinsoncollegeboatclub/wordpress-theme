@@ -6,7 +6,7 @@
 
 	Author: Daniel Chatfield
 
-	Version: 1.0.2
+	Version: 1.0.4
 
 	Github Theme URI: https://github.com/robinsoncollegeboatclub/wordpress-theme
 
@@ -410,6 +410,18 @@ header:after, main:after, footer:after, aside:after, section:after,
 	color: #ec3853 !important;
 	}
 
+#header .social {
+	float: right;
+	position: relative;
+	top: 8px;
+  }
+
+#header .social a {
+	width: 0px;
+	display: inline-block;
+	text-indent: -19999px;
+	overflow: hidden;
+ }
 
 /* Links */
 
@@ -2690,12 +2702,12 @@ body.page-template-template-portfolio-php .portfolio-container .last {
 
 /* Social */
 
-#footer li.twitter {
+#footer li.twitter, .social .twitter {
 	background: url('images/social-twitter.svg') no-repeat top left;
 	padding-left: 22px;
 	}
 
-#footer li.facebook {
+#footer li.facebook, .social .facebook {
 	background: url('images/social-facebook.svg') no-repeat top left;
 	padding-left: 22px;
 	}

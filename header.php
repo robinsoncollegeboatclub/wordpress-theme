@@ -72,9 +72,14 @@
 
 				</nav>
 
-			    <!-- Sidebar Toggle -->
-				<div id="toggle">
-					<i class="fa fa-bars"></i>
+				<div class="social">
+					<?php if ( of_get_option( 'twitter' ) ) { ?>
+						<a class="twitter" href="https://twitter.com/<?php echo of_get_option( 'twitter' ) ?>">@<?php echo of_get_option( 'twitter' ) ?></a>
+					<?php } ?>
+
+					<?php if ( of_get_option( 'facebook' ) ) { ?>
+						<a class="facebook" href="<?php echo of_get_option( 'facebook' ) ?>">Facebook</a>
+					<?php } ?>
 				</div>
 
 			</div>

@@ -198,6 +198,22 @@ function optionsframework_options() {
 		'type' => 'textarea');
 
 
+  // Header
+
+  $options[] = array(
+    'name' => __('Header', 'options_framework_theme'),
+    'type' => 'heading');
+
+  $options[] = array(
+    'name' => __('Twitter Username', 'options_framework_theme'),
+    'id' => 'twitter',
+    'type' => 'text');
+
+  $options[] = array(
+    'name' => __('Facebook URL', 'options_framework_theme'),
+    'id' => 'facebook',
+    'type' => 'text');
+
 
 	// Footer
 
