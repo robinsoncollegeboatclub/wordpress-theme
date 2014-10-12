@@ -26,15 +26,17 @@
                         'orderby' => 'menu_order ID'));
 		?>
 
-		<?php if ( count($attachments) ) : ?>
+		<?php  $gallery = get_post_gallery_images( $post ); ?>
+
+		<?php if ( count($gallery) ) : ?>
 
 		<div class="flexslider">
 			<div class="slider-nav clearfix"></div>
 			<ul class="slides">
 
-			<?php foreach($attachments as $att_id => $attachment): ?>
+			<?php foreach($gallery as $image): ?>
 				<li class="slide">
-					<?php echo wp_get_attachment_image( $attachment->ID, 'full' ); ?>
+					<?php $image ?>
 				</li>
 
 			<?php endforeach; ?>
