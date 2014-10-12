@@ -18,19 +18,23 @@
 	<!--Photos-->
 	<section id="photos" class="clearfix">
 
-		
+		<?php $attachments = get_children(array('post_parent' => $post->ID,
+                        'post_status' => 'inherit',
+                        'post_type' => 'attachment',
+                        'post_mime_type' => 'image',
+                        'order' => 'ASC',
+                        'orderby' => 'menu_order ID'));
+		?>
 
-		<?php  $gallery = get_post_gallery_images( $post ); ?>
-
-		<?php if ( count($gallery) ) : ?>
+		<?php if ( count($attachments) ) : ?>
 
 		<div class="flexslider">
 			<div class="slider-nav clearfix"></div>
 			<ul class="slides">
 
-			<?php foreach($gallery as $image): ?>
+			<?php foreach($attachments as $att_id => $attachment): ?>
 				<li class="slide">
-					<?php $image ?>
+					<?php echo wp_get_attachment_image( $attachment->ID, 'full' ); ?>
 				</li>
 
 			<?php endforeach; ?>
