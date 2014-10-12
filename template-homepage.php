@@ -19,7 +19,7 @@
 	<section id="photos" class="clearfix">
 
 		<?php $attachments = get_children(array('post_parent' => $post->ID,
-                        'post_status' => 'inherit',
+                        'post_status' => 'publish',
                         'post_type' => 'attachment',
                         'post_mime_type' => 'image',
                         'order' => 'ASC',
