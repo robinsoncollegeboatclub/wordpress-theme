@@ -1,0 +1,3 @@
+[submodule "includes/metabox/CMB2"]
+	path = includes/metabox/CMB2
+	url = git@github.com:CMB2/CMB2
