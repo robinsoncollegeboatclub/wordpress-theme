@@ -15,41 +15,16 @@
 	<?php } ?>
 	</section>
 
-	<!--Photos-->
-	<section id="photos" class="clearfix">
+	<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php /*$images = get_attached_media( 'image' ); ?>
+        <!--Photos-->
+        <section id="photos" class="clearfix">
 
-		<?php if ( count($images) ) :*/ ?>
+            <?php the_content(); ?>
 
-		<div class="flexslider">
-			<div class="slider-nav clearfix"></div>
-			<ul class="slides">
+        </section>
 
-			<?php /*foreach($images as $att_id => $attachment): ?>
-				<li class="slide">
-					<?php echo wp_get_attachment_image( $attachment->ID, 'full' ); ?>
-				</li>
-
-			<?php endforeach; */?>
-				<li class="slide">
-					<img class="alignnone wp-image-93" src="http://www.robinsonboatclub.co.uk/wp-content/uploads/sites/2/2014/10/10357771_10100925861368560_1185036100871475069_o.jpg" alt="M1_Mays_14" width="900" height="506">
-				</li>
-				<li class="slide">
-					<img class="alignnone wp-image-93" src="http://dandelion.vpcdn.co/rcbc/wp-content/uploads/sites/2/2014/10/10476582_10154627793190543_998420965509506639_o.jpg" alt="M1_Mays_14" width="900" height="506">
-				</li>
-				<li class="slide">
-					<img class="alignnone wp-image-93" src="http://dandelion.vpcdn.co/rcbc/wp-content/uploads/sites/2/2014/10/10346531_10152205787125897_384997893843157581_n.jpg" alt="M1_Mays_14" width="900" height="506">
-				</li>
-
-			</ul>
-		</div>
-
-		<?php /*wp_reset_postdata(); ?>
-
-		<?php endif;*/ ?>
-
-	</section>
+	<?php endwhile; ?>
 
 
 	<!--Text Columns-->
